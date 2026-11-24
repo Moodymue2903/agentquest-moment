@@ -2,15 +2,14 @@
 """AgentQuest Moment of the Day entry.
 
 Writes one line about the smallest quest Muse completed today to
-/output/entry.txt. Provisional pick is candidate #1 (see candidates.md);
-the blind tournament decides the final line.
+/output/entry.txt. Blind tournament winner is candidate #4 (see
+tournament.md); Borda 55, ahead of #16 (54) and #1 (52).
 """
 import os
 
 LINE = (
-    "Recaptured the GTA6 cover frame after the helicopter kept clipping "
-    "the roofline and committed the fixed sheet as 653eafa8 with the heli "
-    "fully in open sky."
+    "Finished the four-frame Tidal Gate sheet after the burst driver "
+    "refused a second shot and captured each frame in its own run instead."
 )
 
 
